@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: 400;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: 'Roboto', 'Noto Sans JP', serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.header__logo img {
+  height: 160px;
+  margin-bottom: 25px;
+}
+
+.header__nav {
+  background-color: #000;
+  height: 70px;
+  padding-left: 55px;
+}
+
+.header__nav__item{
+  display: inline-block;
+  list-style: none;
+}
+
+.header__nav__item a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 70px;
+  padding-left: 70px;
+}
+
+.wrapper {
+  padding: 45px 15px 0;
+}
+
+.main{
+  width: 65vw;
+  float: left;
+}
+
+.main__post__title{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 65px;
+  padding-left: 5px;
+  border-bottom: solid 2px #000;
+  border-left: solid 8px #000;
+}
+
+
+.main__posted {
+  padding-bottom: 70px;
+}
+
+.sidebar{
+  float: right;
+  width: 28vw;
+  margin-top: 8px;
+}
+
+.sidebar__title{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  border-bottom: dotted 2px #000;
+  margin: 20px 0;
+}
+
+.sidebar__item{
+  list-style: none;
+  padding-left: 28px;
+}
+
+.sidebar__item a{
+  line-height: 50px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.footer {
+  clear: left;
+  background-color: #000;
+}
+
+.footer small {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  line-height: 70px;
+  text-align: center;
+}
+
+form {
+  margin: 30px auto;
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  border-radius: 10px;
+  width: 100%;
+}
+
+form div{
+  padding: 15px;
+}
+
+.text, textarea, .dropdown{
+  border: 1px solid #dfdfdf;
+  padding: 5px;
+  color: #999;
+  background: #fff;
+}
+
+.submit{
+  border: 1px solid lightgray;
+  padding: 4px 10px;
+  color: white;
+  background-color: #bfbfbf;
+  border-radius: 5px;
+  border-bottom: solid 2px gray;
+}
+
+.main__posted__contents{
+  margin: 30px auto;
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.main__posted__contents h4{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 2;
+  padding: 0 15px;
+  margin: 0 10px;
+  border-bottom: 2px solid #ebebeb;
+}
+
+.main__posted__contents p{
+  font-size: 18px;
+  padding: 15px 25px;
+}
+
+.main__posted__contents small{
+  display: block;
+  font-size: 14px;
+  padding: 0 25px 15px;
+}
+
